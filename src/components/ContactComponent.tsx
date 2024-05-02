@@ -64,18 +64,25 @@ export function ContactComponent() {
 //Background
 
 const BackgroundWrapper = styled.div`
-  background-image: url("./images/TransparentBackgroundExample2.jpg");
-  background-image: no-repeat;
-  background-size: cover;
+    background-image: url("./images/TransparentBackgroundExample2.jpg");
+    background-image: no-repeat;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
 `;
 
 const BackgroundStyle = styled.div`
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
+    display:flex;
+    height: 100vh;
+    width:100%;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    padding-top:20px;
 `;
 
 //Contact Title Container with children

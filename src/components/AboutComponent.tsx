@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 const BackgroundImageContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background-image: url("./images/OmOssBakgrund.jpg");
-  background-size: cover;
-  background-position: center;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url("./images/OmOssBakgrund.jpg");
+    background-size: cover;
+    background-position: center;
 `;
 
 const AboutUsContainer = styled.div`
